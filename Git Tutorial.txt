@@ -1,0 +1,31 @@
+Add user name and email globally having current user for all the projects:-
+git config -- global user.name "Himanshu Parashar"
+git config -- global user.email "himanshu.parashar11@gmail.com"
+
+Add user name and email locally having current user for Single Repository:-
+git config -- local user.name "Himanshu Parashar"
+git config -- local user.email "himanshu.parashar11@gmail.com"
+
+
+Remove global user and email
+git config -- global --edit
+:x! to save the changes in VI.
+
+Git clone :- Set up a local repository. Used once in a project.
+git clone "URL from remote repository"
+
+Pull command :-  Sync local and remote repository. Used Several times in a project.
+git pull "URL from remote repository"
+
+Git Init :- initialize a empty repository on local machine.
+git init
+
+Git Status:- displays the state of the working directory and the staging area
+git status 
+
+Git Add filename:- Add the file in staging environment. 
+git add filename.extension 
+Git Add .(Current Directory) :-  Add all the files in staging environment
+git add . 
+
+
